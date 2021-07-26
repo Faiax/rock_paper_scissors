@@ -1,5 +1,5 @@
 import random
-
+import time
 
 def play():
     user = input(""""what's your choice? 'r' for rock, 'p' for paper , 's' for scissors\n  """)
@@ -24,3 +24,4 @@ def is_win(player, opponent):
 
 
 print(play())
+time.sleep(60)
